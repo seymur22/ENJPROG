@@ -122,7 +122,6 @@ namespace ENJPROG {
 	private: System::Void engi2_click(System::Object^ sender, System::EventArgs^ e) {
 		Enginer2^ engin2 = gcnew Enginer2();
 		engin2->Show();
-		this->Hide();
 	}
 };
 }

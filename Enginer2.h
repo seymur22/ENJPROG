@@ -1,5 +1,4 @@
 #pragma once
-
 namespace ENJPROG {
 
 	using namespace System;
@@ -37,6 +36,7 @@ namespace ENJPROG {
 	private: System::Windows::Forms::Label^ label1;
 	private: System::Windows::Forms::PictureBox^ pictureBox1;
 	private: System::Windows::Forms::TextBox^ textBox1;
+	private: System::Windows::Forms::Button^ Homebtn;
 
 
 
@@ -60,6 +60,7 @@ namespace ENJPROG {
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
+			this->Homebtn = (gcnew System::Windows::Forms::Button());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
@@ -80,9 +81,9 @@ namespace ENJPROG {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(990, 61);
+			this->pictureBox1->Location = System::Drawing::Point(989, 61);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(442, 284);
+			this->pictureBox1->Size = System::Drawing::Size(463, 300);
 			this->pictureBox1->TabIndex = 2;
 			this->pictureBox1->TabStop = false;
 			this->pictureBox1->Click += gcnew System::EventHandler(this, &Enginer2::pictureBox1_Click);
@@ -102,9 +103,25 @@ namespace ENJPROG {
 			this->textBox1->Name = L"textBox1";
 			this->textBox1->ReadOnly = true;
 			this->textBox1->ScrollBars = System::Windows::Forms::ScrollBars::Vertical;
-			this->textBox1->Size = System::Drawing::Size(960, 526);
+			this->textBox1->Size = System::Drawing::Size(960, 542);
 			this->textBox1->TabIndex = 3;
 			this->textBox1->Text = resources->GetString(L"textBox1.Text");
+			this->textBox1->TextChanged += gcnew System::EventHandler(this, &Enginer2::textBox1_TextChanged);
+			// 
+			// Homebtn
+			// 
+			this->Homebtn->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Bottom | System::Windows::Forms::AnchorStyles::Right));
+			this->Homebtn->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(192)), static_cast<System::Int32>(static_cast<System::Byte>(255)),
+				static_cast<System::Int32>(static_cast<System::Byte>(255)));
+			this->Homebtn->Font = (gcnew System::Drawing::Font(L"Arial Black", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->Homebtn->Location = System::Drawing::Point(1354, 613);
+			this->Homebtn->Name = L"Homebtn";
+			this->Homebtn->Size = System::Drawing::Size(98, 43);
+			this->Homebtn->TabIndex = 4;
+			this->Homebtn->Text = L"Home";
+			this->Homebtn->UseVisualStyleBackColor = false;
+			this->Homebtn->Click += gcnew System::EventHandler(this, &Enginer2::Homebtn_click);
 			// 
 			// Enginer2
 			// 
@@ -112,12 +129,11 @@ namespace ENJPROG {
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoScroll = true;
 			this->BackColor = System::Drawing::Color::RosyBrown;
-			this->ClientSize = System::Drawing::Size(1444, 668);
-			this->ControlBox = false;
+			this->ClientSize = System::Drawing::Size(1464, 668);
+			this->Controls->Add(this->Homebtn);
 			this->Controls->Add(this->textBox1);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->label1);
-			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::SizableToolWindow;
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->Name = L"Enginer2";
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
@@ -128,5 +144,10 @@ namespace ENJPROG {
 #pragma endregion
 	private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
-	};
+	private: System::Void Homebtn_click(System::Object^ sender, System::EventArgs^ e) {
+
+	}
+private: System::Void textBox1_TextChanged(System::Object^ sender, System::EventArgs^ e) {
+}
+};
 }

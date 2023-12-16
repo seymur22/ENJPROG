@@ -35,8 +35,10 @@ namespace ENJPROG {
 			}
 		}
 	private: System::Windows::Forms::Label^ label1;
-	private: System::Windows::Forms::Label^ label2;
+	private: System::Windows::Forms::TextBox^ textBox1;
 	private: System::Windows::Forms::PictureBox^ pictureBox1;
+
+
 	protected:
 
 
@@ -55,7 +57,7 @@ namespace ENJPROG {
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Enginer1::typeid));
 			this->label1 = (gcnew System::Windows::Forms::Label());
-			this->label2 = (gcnew System::Windows::Forms::Label());
+			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
@@ -71,33 +73,44 @@ namespace ENJPROG {
 			this->label1->TabIndex = 0;
 			this->label1->Text = L"Mechanical Engineering";
 			// 
-			// label2
+			// textBox1
 			// 
-			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(30, 111);
-			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(44, 16);
-			this->label2->TabIndex = 1;
-			this->label2->Text = L"label2";
+			this->textBox1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
+			this->textBox1->BorderStyle = System::Windows::Forms::BorderStyle::None;
+			this->textBox1->Font = (gcnew System::Drawing::Font(L"Arial", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->textBox1->ImeMode = System::Windows::Forms::ImeMode::NoControl;
+			this->textBox1->Location = System::Drawing::Point(19, 63);
+			this->textBox1->MaximumSize = System::Drawing::Size(960, 570);
+			this->textBox1->Multiline = true;
+			this->textBox1->Name = L"textBox1";
+			this->textBox1->ReadOnly = true;
+			this->textBox1->ScrollBars = System::Windows::Forms::ScrollBars::Vertical;
+			this->textBox1->Size = System::Drawing::Size(960, 526);
+			this->textBox1->TabIndex = 4;
 			// 
 			// pictureBox1
 			// 
+			this->pictureBox1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(569, 9);
+			this->pictureBox1->Location = System::Drawing::Point(1000, 63);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(245, 213);
-			this->pictureBox1->TabIndex = 2;
+			this->pictureBox1->Size = System::Drawing::Size(330, 324);
+			this->pictureBox1->TabIndex = 5;
 			this->pictureBox1->TabStop = false;
-			this->pictureBox1->Click += gcnew System::EventHandler(this, &Enginer1::pictureBox1_Click);
 			// 
 			// Enginer1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::RosyBrown;
-			this->ClientSize = System::Drawing::Size(826, 521);
+			this->ClientSize = System::Drawing::Size(1342, 661);
 			this->Controls->Add(this->pictureBox1);
-			this->Controls->Add(this->label2);
+			this->Controls->Add(this->textBox1);
 			this->Controls->Add(this->label1);
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->Name = L"Enginer1";
