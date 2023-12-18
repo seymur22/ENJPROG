@@ -137,8 +137,24 @@
     <ClCompile Include="Enginer2.cpp" />
     <ClCompile Include="Enginer20.cpp" />
     <ClCompile Include="Enginer21.cpp" />
+    <ClCompile Include="Enginer2_1h.cpp" />
+    <ClCompile Include="Enginer2_2h.cpp" />
+    <ClCompile Include="Enginer2_3h.cpp" />
+    <ClCompile Include="Enginer2_3h1.cpp" />
+    <ClCompile Include="Enginer2_4h.cpp" />
+    <ClCompile Include="Enginer2_5h.cpp" />
     <ClCompile Include="Enginer3.cpp" />
+    <ClCompile Include="Enginer3_1h.cpp" />
+    <ClCompile Include="Enginer3_2h.cpp" />
+    <ClCompile Include="Enginer3_3h.cpp" />
+    <ClCompile Include="Enginer3_4h.cpp" />
+    <ClCompile Include="Enginer3_5h.cpp" />
     <ClCompile Include="Enginer4.cpp" />
+    <ClCompile Include="Enginer4_1h.cpp" />
+    <ClCompile Include="Enginer4_2h.cpp" />
+    <ClCompile Include="Enginer4_3h.cpp" />
+    <ClCompile Include="Enginer4_4h.cpp" />
+    <ClCompile Include="Enginer4_5h.cpp" />
     <ClCompile Include="Enginer5.cpp" />
     <ClCompile Include="Enginer6.cpp" />
     <ClCompile Include="Enginer7.cpp" />
@@ -204,10 +220,58 @@
     <ClInclude Include="Enginer21.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="Enginer2_1h.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer2_2h.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer2_3h.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer2_3h1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer2_4h.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer2_5h.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="Enginer3.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="Enginer3_1h.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer3_2h.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer3_3h.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer3_4h.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer3_5h.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="Enginer4.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer4_1h.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer4_2h.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer4_3h.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer4_4h.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer4_5h.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Enginer5.h">
@@ -235,6 +299,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Enginer1_1h.resx">
       <DependentUpon>Enginer1_1h.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enginer1_4h.resx">
+      <DependentUpon>Enginer1_4h.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enginer1_5h.resx">
+      <DependentUpon>Enginer1_5h.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Enginer2.resx">
       <DependentUpon>Enginer2.h</DependentUpon>

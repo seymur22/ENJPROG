@@ -96,6 +96,54 @@
     <ClCompile Include="Enginer1_5h.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Enginer2_1h.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer2_2h.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer2_3h.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer2_3h1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer2_4h.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer2_5h.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer3_1h.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer3_2h.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer3_3h.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer3_4h.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer3_5h.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer4_1h.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer4_2h.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer4_3h.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer4_4h.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer4_5h.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Home.h">
@@ -177,6 +225,54 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Enginer1_5h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer2_1h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer2_2h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer2_3h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer2_3h1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer2_4h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer2_5h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer3_1h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer3_2h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer3_3h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer3_4h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer3_5h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer4_1h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer4_2h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer4_3h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer4_4h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer4_5h.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

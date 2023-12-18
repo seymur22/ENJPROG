@@ -108,6 +108,7 @@ namespace ENJPROG {
 			this->unengi2->TabIndex = 5;
 			this->unengi2->Text = L"2.";
 			this->unengi2->UseVisualStyleBackColor = false;
+			this->unengi2->Click += gcnew System::EventHandler(this, &Enginer3::unengi2_Click);
 			// 
 			// unengi3
 			// 
@@ -168,5 +169,7 @@ namespace ENJPROG {
 	}
 	private: System::Void Enginer3_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
-	};
+	public: System::Void unengi2_Click(System::Object^ sender, System::EventArgs^ e) {
+	}
+};
 }
