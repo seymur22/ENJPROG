@@ -1,5 +1,9 @@
 #pragma once
-
+#include "Enginer1_1h.h"
+#include "Enginer1_2h.h"
+#include "Enginer1_3h.h"
+#include "Enginer1_4h.h"
+#include "Enginer1_5h.h"
 namespace ENJPROG {
 
 	using namespace System;
@@ -35,8 +39,18 @@ namespace ENJPROG {
 			}
 		}
 	private: System::Windows::Forms::Label^ label1;
-	private: System::Windows::Forms::TextBox^ textBox1;
-	private: System::Windows::Forms::PictureBox^ pictureBox1;
+	private: System::Windows::Forms::Button^ unengi1;
+	private: System::Windows::Forms::Button^ unengi2;
+	private: System::Windows::Forms::Button^ unengi3;
+	private: System::Windows::Forms::Button^ unengi4;
+	private: System::Windows::Forms::Button^ unengi5;
+
+
+
+
+
+
+
 
 
 	protected:
@@ -57,65 +71,103 @@ namespace ENJPROG {
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Enginer1::typeid));
 			this->label1 = (gcnew System::Windows::Forms::Label());
-			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
-			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
+			this->unengi1 = (gcnew System::Windows::Forms::Button());
+			this->unengi2 = (gcnew System::Windows::Forms::Button());
+			this->unengi3 = (gcnew System::Windows::Forms::Button());
+			this->unengi4 = (gcnew System::Windows::Forms::Button());
+			this->unengi5 = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
 			// label1
 			// 
 			this->label1->AutoSize = true;
+			this->label1->BackColor = System::Drawing::Color::RosyBrown;
+			this->label1->Dock = System::Windows::Forms::DockStyle::Top;
 			this->label1->Font = (gcnew System::Drawing::Font(L"Arial Black", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label1->Location = System::Drawing::Point(12, 9);
+			this->label1->Location = System::Drawing::Point(0, 0);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(386, 40);
 			this->label1->TabIndex = 0;
 			this->label1->Text = L"Mechanical Engineering";
 			// 
-			// textBox1
+			// unengi1
 			// 
-			this->textBox1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->textBox1->BorderStyle = System::Windows::Forms::BorderStyle::None;
-			this->textBox1->Font = (gcnew System::Drawing::Font(L"Arial", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->textBox1->ImeMode = System::Windows::Forms::ImeMode::NoControl;
-			this->textBox1->Location = System::Drawing::Point(19, 63);
-			this->textBox1->MaximumSize = System::Drawing::Size(960, 570);
-			this->textBox1->Multiline = true;
-			this->textBox1->Name = L"textBox1";
-			this->textBox1->ReadOnly = true;
-			this->textBox1->ScrollBars = System::Windows::Forms::ScrollBars::Vertical;
-			this->textBox1->Size = System::Drawing::Size(960, 526);
-			this->textBox1->TabIndex = 4;
+			this->unengi1->BackColor = System::Drawing::SystemColors::ActiveCaption;
+			this->unengi1->Dock = System::Windows::Forms::DockStyle::Top;
+			this->unengi1->Location = System::Drawing::Point(0, 40);
+			this->unengi1->Name = L"unengi1";
+			this->unengi1->Size = System::Drawing::Size(471, 37);
+			this->unengi1->TabIndex = 4;
+			this->unengi1->Text = L"1.";
+			this->unengi1->UseVisualStyleBackColor = false;
+			this->unengi1->Click += gcnew System::EventHandler(this, &Enginer1::unengi1_Click);
 			// 
-			// pictureBox1
+			// unengi2
 			// 
-			this->pictureBox1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left)
-				| System::Windows::Forms::AnchorStyles::Right));
-			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
-			this->pictureBox1->Location = System::Drawing::Point(1000, 63);
-			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(330, 324);
-			this->pictureBox1->TabIndex = 5;
-			this->pictureBox1->TabStop = false;
+			this->unengi2->BackColor = System::Drawing::SystemColors::ActiveCaption;
+			this->unengi2->Dock = System::Windows::Forms::DockStyle::Top;
+			this->unengi2->Location = System::Drawing::Point(0, 77);
+			this->unengi2->Name = L"unengi2";
+			this->unengi2->Size = System::Drawing::Size(471, 37);
+			this->unengi2->TabIndex = 5;
+			this->unengi2->Text = L"2.";
+			this->unengi2->UseVisualStyleBackColor = false;
+			this->unengi2->Click += gcnew System::EventHandler(this, &Enginer1::unengi2_Click);
+			// 
+			// unengi3
+			// 
+			this->unengi3->BackColor = System::Drawing::SystemColors::ActiveCaption;
+			this->unengi3->Dock = System::Windows::Forms::DockStyle::Top;
+			this->unengi3->Location = System::Drawing::Point(0, 114);
+			this->unengi3->Name = L"unengi3";
+			this->unengi3->Size = System::Drawing::Size(471, 37);
+			this->unengi3->TabIndex = 6;
+			this->unengi3->Text = L"3.";
+			this->unengi3->UseVisualStyleBackColor = false;
+			this->unengi3->Click += gcnew System::EventHandler(this, &Enginer1::unengi3_Click);
+			// 
+			// unengi4
+			// 
+			this->unengi4->BackColor = System::Drawing::SystemColors::ActiveCaption;
+			this->unengi4->Dock = System::Windows::Forms::DockStyle::Top;
+			this->unengi4->Location = System::Drawing::Point(0, 151);
+			this->unengi4->Name = L"unengi4";
+			this->unengi4->Size = System::Drawing::Size(471, 37);
+			this->unengi4->TabIndex = 7;
+			this->unengi4->Text = L"4.";
+			this->unengi4->UseVisualStyleBackColor = false;
+			this->unengi4->Click += gcnew System::EventHandler(this, &Enginer1::unengi4_Click);
+			// 
+			// unengi5
+			// 
+			this->unengi5->BackColor = System::Drawing::SystemColors::ActiveCaption;
+			this->unengi5->Dock = System::Windows::Forms::DockStyle::Top;
+			this->unengi5->Location = System::Drawing::Point(0, 188);
+			this->unengi5->Name = L"unengi5";
+			this->unengi5->Size = System::Drawing::Size(471, 37);
+			this->unengi5->TabIndex = 8;
+			this->unengi5->Text = L"5.";
+			this->unengi5->UseVisualStyleBackColor = false;
+			this->unengi5->Click += gcnew System::EventHandler(this, &Enginer1::unengi5_Click);
 			// 
 			// Enginer1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::RosyBrown;
-			this->ClientSize = System::Drawing::Size(1342, 661);
-			this->Controls->Add(this->pictureBox1);
-			this->Controls->Add(this->textBox1);
+			this->ClientSize = System::Drawing::Size(471, 256);
+			this->Controls->Add(this->unengi5);
+			this->Controls->Add(this->unengi4);
+			this->Controls->Add(this->unengi3);
+			this->Controls->Add(this->unengi2);
+			this->Controls->Add(this->unengi1);
 			this->Controls->Add(this->label1);
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->Name = L"Enginer1";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Enginer1";
-			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
+			this->Load += gcnew System::EventHandler(this, &Enginer1::Enginer1_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -123,5 +175,27 @@ namespace ENJPROG {
 #pragma endregion
 	private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
-	};
+	private: System::Void Enginer1_Load(System::Object^ sender, System::EventArgs^ e) {
+	}
+	private: System::Void unengi1_Click(System::Object^ sender, System::EventArgs^ e) {
+		Enginer1_1h^ f = gcnew Enginer1_1h();
+		f->Show();
+	}
+private: System::Void unengi2_Click(System::Object^ sender, System::EventArgs^ e) {
+		Enginer1_2h^ f1 = gcnew Enginer1_2h();
+		f1->Show();
+}
+private: System::Void unengi3_Click(System::Object^ sender, System::EventArgs^ e) {
+		Enginer1_3h^ f2 = gcnew Enginer1_3h();
+		f2->Show();
+}
+private: System::Void unengi4_Click(System::Object^ sender, System::EventArgs^ e) {
+		Enginer1_4h^ f3 = gcnew Enginer1_4h();
+		f3->Show();
+}
+private: System::Void unengi5_Click(System::Object^ sender, System::EventArgs^ e) {
+		Enginer1_5h^ f4 = gcnew Enginer1_5h();
+		f4->Show();
+}
+};
 }

@@ -10,12 +10,12 @@ namespace ENJPROG {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Summary for Enginer2
+	/// Summary for Enginer3
 	/// 	/// </summary>
-	public ref class Enginer2 : public System::Windows::Forms::Form
+	public ref class Enginer3 : public System::Windows::Forms::Form
 	{
 	public:
-		Enginer2(void)
+		Enginer3(void)
 		{
 			InitializeComponent();
 			//
@@ -27,7 +27,7 @@ namespace ENJPROG {
 		/// <summary>
 		/// Clean up any resources being used.
 		/// </summary>
-		~Enginer2()
+		~Enginer3()
 		{
 			if (components)
 			{
@@ -65,7 +65,7 @@ namespace ENJPROG {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Enginer2::typeid));
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Enginer3::typeid));
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->unengi1 = (gcnew System::Windows::Forms::Button());
 			this->unengi2 = (gcnew System::Windows::Forms::Button());
@@ -130,7 +130,6 @@ namespace ENJPROG {
 			this->unengi4->TabIndex = 7;
 			this->unengi4->Text = L"4.";
 			this->unengi4->UseVisualStyleBackColor = false;
-			this->unengi4->Click += gcnew System::EventHandler(this, &Enginer2::unengi4_Click);
 			// 
 			// unengi5
 			// 
@@ -142,9 +141,8 @@ namespace ENJPROG {
 			this->unengi5->TabIndex = 8;
 			this->unengi5->Text = L"5.";
 			this->unengi5->UseVisualStyleBackColor = false;
-			this->unengi5->Click += gcnew System::EventHandler(this, &Enginer2::unengi5_Click);
 			// 
-			// Enginer2
+			// Enginer3
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
@@ -157,10 +155,10 @@ namespace ENJPROG {
 			this->Controls->Add(this->unengi1);
 			this->Controls->Add(this->label1);
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
-			this->Name = L"Enginer2";
+			this->Name = L"Enginer3";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Enginer2";
-			this->Load += gcnew System::EventHandler(this, &Enginer2::Enginer2_Load);
+			this->Text = L"Enginer3";
+			this->Load += gcnew System::EventHandler(this, &Enginer3::Enginer3_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -168,11 +166,7 @@ namespace ENJPROG {
 #pragma endregion
 	private: System::Void pictureBox1_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
-	private: System::Void Enginer2_Load(System::Object^ sender, System::EventArgs^ e) {
+	private: System::Void Enginer3_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
-	private: System::Void unengi4_Click(System::Object^ sender, System::EventArgs^ e) {
-	}
-private: System::Void unengi5_Click(System::Object^ sender, System::EventArgs^ e) {
-}
-};
+	};
 }

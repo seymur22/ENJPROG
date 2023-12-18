@@ -119,14 +119,110 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Enginer1.cpp" />
+    <ClCompile Include="Enginer10.cpp" />
+    <ClCompile Include="Enginer11.cpp" />
+    <ClCompile Include="Enginer12.cpp" />
+    <ClCompile Include="Enginer13.cpp" />
+    <ClCompile Include="Enginer14.cpp" />
+    <ClCompile Include="Enginer15.cpp" />
+    <ClCompile Include="Enginer16.cpp" />
+    <ClCompile Include="Enginer17.cpp" />
+    <ClCompile Include="Enginer18.cpp" />
+    <ClCompile Include="Enginer19.cpp" />
+    <ClCompile Include="Enginer1_1h.cpp" />
+    <ClCompile Include="Enginer1_2h.cpp" />
+    <ClCompile Include="Enginer1_3h.cpp" />
+    <ClCompile Include="Enginer1_4h.cpp" />
+    <ClCompile Include="Enginer1_5h.cpp" />
     <ClCompile Include="Enginer2.cpp" />
+    <ClCompile Include="Enginer20.cpp" />
+    <ClCompile Include="Enginer21.cpp" />
+    <ClCompile Include="Enginer3.cpp" />
+    <ClCompile Include="Enginer4.cpp" />
+    <ClCompile Include="Enginer5.cpp" />
+    <ClCompile Include="Enginer6.cpp" />
+    <ClCompile Include="Enginer7.cpp" />
+    <ClCompile Include="Enginer8.cpp" />
+    <ClCompile Include="Enginer9.cpp" />
     <ClCompile Include="Home.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Enginer1.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="Enginer10.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer11.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer12.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer13.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer14.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer15.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer16.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer17.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer18.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer19.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer1_1h.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer1_2h.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer1_3h.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer1_4h.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer1_5h.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="Enginer2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer20.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer21.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer3.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer4.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer5.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer6.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer7.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer8.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enginer9.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="Home.h">
@@ -137,8 +233,14 @@
     <EmbeddedResource Include="Enginer1.resx">
       <DependentUpon>Enginer1.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Enginer1_1h.resx">
+      <DependentUpon>Enginer1_1h.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Enginer2.resx">
       <DependentUpon>Enginer2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enginer3.resx">
+      <DependentUpon>Enginer3.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.h</DependentUpon>

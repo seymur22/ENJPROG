@@ -21,7 +21,79 @@
     <ClCompile Include="Enginer1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Enginer3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer13.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer14.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer15.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer16.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer17.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer18.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer19.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer20.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer21.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Enginer2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer1_1h.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer1_2h.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer1_3h.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer1_4h.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enginer1_5h.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,7 +104,79 @@
     <ClInclude Include="Enginer1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Enginer3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer13.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer14.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer15.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer17.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer18.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer19.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer20.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer21.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="Enginer2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer1_1h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer1_2h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer1_3h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer1_4h.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enginer1_5h.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
