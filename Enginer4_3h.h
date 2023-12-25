@@ -10,7 +10,7 @@ namespace ENJPROG {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Summary for Enginer4_3h
+	/// Summary for Enginer1_1h
 	/// </summary>
 	public ref class Enginer4_3h : public System::Windows::Forms::Form
 	{
@@ -34,12 +34,16 @@ namespace ENJPROG {
 				delete components;
 			}
 		}
+	private: System::Windows::Forms::TextBox^ textBox1;
+	protected:
+
+	protected:
 
 	private:
 		/// <summary>
 		/// Required designer variable.
 		/// </summary>
-		System::ComponentModel::Container ^components;
+		System::ComponentModel::Container^ components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
@@ -48,12 +52,32 @@ namespace ENJPROG {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->components = gcnew System::ComponentModel::Container();
-			this->Size = System::Drawing::Size(300,300);
-			this->Text = L"Enginer4_3h";
-			this->Padding = System::Windows::Forms::Padding(0);
+			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
+			this->SuspendLayout();
+			// 
+			// textBox1
+			// 
+			this->textBox1->Location = System::Drawing::Point(12, 12);
+			this->textBox1->Multiline = true;
+			this->textBox1->Name = L"textBox1";
+			this->textBox1->Size = System::Drawing::Size(529, 282);
+			this->textBox1->TabIndex = 0;
+			// 
+			// Enginer4_3h
+			// 
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->BackColor = System::Drawing::Color::PeachPuff;
+			this->ClientSize = System::Drawing::Size(785, 485);
+			this->Controls->Add(this->textBox1);
+			this->Name = L"Enginer4_3h";
+			this->ShowIcon = false;
+			this->Text = L"Enginer4_3h";
+			this->ResumeLayout(false);
+			this->PerformLayout();
+
 		}
 #pragma endregion
+
 	};
 }

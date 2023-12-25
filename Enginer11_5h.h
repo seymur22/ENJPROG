@@ -10,12 +10,12 @@ namespace ENJPROG {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Summary for Enginer2_3h1
+	/// Summary for Enginer11_5h
 	/// </summary>
-	public ref class Enginer2_3h1 : public System::Windows::Forms::Form
+	public ref class Enginer11_5h : public System::Windows::Forms::Form
 	{
 	public:
-		Enginer2_3h1(void)
+		Enginer11_5h(void)
 		{
 			InitializeComponent();
 			//
@@ -27,7 +27,7 @@ namespace ENJPROG {
 		/// <summary>
 		/// Clean up any resources being used.
 		/// </summary>
-		~Enginer2_3h1()
+		~Enginer11_5h()
 		{
 			if (components)
 			{
@@ -50,7 +50,7 @@ namespace ENJPROG {
 		{
 			this->components = gcnew System::ComponentModel::Container();
 			this->Size = System::Drawing::Size(300,300);
-			this->Text = L"Enginer2_3h1";
+			this->Text = L"Enginer11_5h";
 			this->Padding = System::Windows::Forms::Padding(0);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 		}

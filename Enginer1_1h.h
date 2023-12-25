@@ -35,6 +35,7 @@ namespace ENJPROG {
 			}
 		}
 	private: System::Windows::Forms::TextBox^ textBox1;
+	private: System::Windows::Forms::Label^ label1;
 	protected:
 
 	protected:
@@ -53,15 +54,30 @@ namespace ENJPROG {
 		void InitializeComponent(void)
 		{
 			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
+			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
 			// 
 			// textBox1
 			// 
+			this->textBox1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
 			this->textBox1->Location = System::Drawing::Point(12, 44);
 			this->textBox1->Multiline = true;
 			this->textBox1->Name = L"textBox1";
+			this->textBox1->ReadOnly = true;
+			this->textBox1->ScrollBars = System::Windows::Forms::ScrollBars::Horizontal;
 			this->textBox1->Size = System::Drawing::Size(529, 282);
 			this->textBox1->TabIndex = 0;
+			this->textBox1->Text = L"Information";
+			// 
+			// label1
+			// 
+			this->label1->AutoSize = true;
+			this->label1->Location = System::Drawing::Point(12, 9);
+			this->label1->Name = L"label1";
+			this->label1->Size = System::Drawing::Size(44, 16);
+			this->label1->TabIndex = 1;
+			this->label1->Text = L"label1";
 			// 
 			// Enginer1_1h
 			// 
@@ -69,6 +85,7 @@ namespace ENJPROG {
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::PeachPuff;
 			this->ClientSize = System::Drawing::Size(785, 485);
+			this->Controls->Add(this->label1);
 			this->Controls->Add(this->textBox1);
 			this->Name = L"Enginer1_1h";
 			this->ShowIcon = false;

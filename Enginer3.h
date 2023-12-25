@@ -1,5 +1,9 @@
 #pragma once
-
+#include "Enginer3_1h.h"
+#include "Enginer3_2h.h"
+#include "Enginer3_3h.h"
+#include "Enginer3_4h.h"
+#include "Enginer3_5h.h"
 namespace ENJPROG {
 
 	using namespace System;
@@ -97,6 +101,7 @@ namespace ENJPROG {
 			this->unengi1->TabIndex = 4;
 			this->unengi1->Text = L"1.";
 			this->unengi1->UseVisualStyleBackColor = false;
+			this->unengi1->Click += gcnew System::EventHandler(this, &Enginer3::unengi1_Click);
 			// 
 			// unengi2
 			// 
@@ -120,6 +125,7 @@ namespace ENJPROG {
 			this->unengi3->TabIndex = 6;
 			this->unengi3->Text = L"3.";
 			this->unengi3->UseVisualStyleBackColor = false;
+			this->unengi3->Click += gcnew System::EventHandler(this, &Enginer3::unengi3_Click);
 			// 
 			// unengi4
 			// 
@@ -131,6 +137,7 @@ namespace ENJPROG {
 			this->unengi4->TabIndex = 7;
 			this->unengi4->Text = L"4.";
 			this->unengi4->UseVisualStyleBackColor = false;
+			this->unengi4->Click += gcnew System::EventHandler(this, &Enginer3::unengi4_Click);
 			// 
 			// unengi5
 			// 
@@ -142,6 +149,7 @@ namespace ENJPROG {
 			this->unengi5->TabIndex = 8;
 			this->unengi5->Text = L"5.";
 			this->unengi5->UseVisualStyleBackColor = false;
+			this->unengi5->Click += gcnew System::EventHandler(this, &Enginer3::unengi5_Click);
 			// 
 			// Enginer3
 			// 
@@ -170,6 +178,25 @@ namespace ENJPROG {
 	private: System::Void Enginer3_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
 	public: System::Void unengi2_Click(System::Object^ sender, System::EventArgs^ e) {
+		Enginer3_2h^ enginer3_2h = gcnew Enginer3_2h();
+		enginer3_2h->Show();
 	}
+private: System::Void unengi1_Click(System::Object^ sender, System::EventArgs^ e) {
+		Enginer3_1h^ enginer3_1h = gcnew Enginer3_1h();
+		enginer3_1h->Show();
+
+}
+private: System::Void unengi3_Click(System::Object^ sender, System::EventArgs^ e) {
+	Enginer3_3h^ enginer3_3h = gcnew Enginer3_3h();
+	enginer3_3h->Show();
+}
+private: System::Void unengi4_Click(System::Object^ sender, System::EventArgs^ e) {
+	Enginer3_4h^ enginer3_4h = gcnew Enginer3_4h();
+	enginer3_4h->Show();
+}
+private: System::Void unengi5_Click(System::Object^ sender, System::EventArgs^ e) {
+	Enginer3_5h^ enginer3_5h = gcnew Enginer3_5h();
+	enginer3_5h->Show();
+}
 };
 }
